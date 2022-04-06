@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">TODO LIST</h1>
+    <div class="todo-list">
+        <label>
+        <input type="text" id="add-text" placeholder="Study JavaScript." autocomplete="off">
+        </label>
+        <div class="button-container">
+            <button id="add-button">Add</button>
+            <button id="clear-button" onclick="clearText()">Clear</button>
+        </div>
+        <!-- /.button-container -->
+    </div>
+    <!-- /.todo-list -->
+    <hr>
+    <div class="list-container">
+        <ul id="task"></ul>
+    </div>
+    <!-- /.list-container -->
+
+    <script src="main.js"></script>
+</body>
+</html>
